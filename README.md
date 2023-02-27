@@ -1,5 +1,9 @@
 # neovim config of @fivetwentysix
 
+## Prerequisites
+
+Intended to be used with [iTerm](https://iterm2.com/) for 24-bit colors.
+
 ## Installation
 
 ```
