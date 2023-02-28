@@ -74,6 +74,21 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ale = {
+    loaded = true,
+    path = "/Users/526/.local/share/nvim/site/pack/packer/start/ale",
+    url = "https://github.com/dense-analysis/ale"
+  },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/Users/526/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/Users/526/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/ful1e5/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/526/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -88,6 +103,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/526/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/Users/526/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-gitbranch"] = {
+    loaded = true,
+    path = "/Users/526/.local/share/nvim/site/pack/packer/start/vim-gitbranch",
+    url = "https://github.com/itchyny/vim-gitbranch"
+  },
+  ["vim-prisma"] = {
+    loaded = true,
+    path = "/Users/526/.local/share/nvim/site/pack/packer/start/vim-prisma",
+    url = "https://github.com/prisma/vim-prisma"
   }
 }
 
