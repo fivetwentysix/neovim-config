@@ -3,7 +3,7 @@ let mapleader = ","
 
 lua require('plugins')
 
-map <Leader>t :!yarn test<cr>
+map <Leader>t :w<cr>:!yarn test<cr>
 map <Leader>f <cmd>lua require('telescope.builtin').git_files()<cr>
 map <Leader>vi :e $HOME/.config/nvim/init.vim<cr>
 map <Leader>vl :so $HOME/.config/nvim/init.vim<cr>
@@ -52,3 +52,8 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 map <leader><leader> <c-6>
+
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
